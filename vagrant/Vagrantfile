@@ -16,6 +16,9 @@ Vagrant.configure(2) do |config|
 #  config.vm.box = "TFDuesing/Fedora-20"`
   config.vm.box = "centos/7"
 
+  config.vm.define "jboss-bpmsuite-workshop" do |t|
+  end
+
   # Disable the new default behavior introduced in Vagrant 1.7, to
   # ensure that all Vagrant machines will use the same SSH key pair.
   # See https://github.com/mitchellh/vagrant/issues/5005
